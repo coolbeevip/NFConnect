@@ -1,0 +1,4 @@
+
+```shell
+cargo build --release
+```
