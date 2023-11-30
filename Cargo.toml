@@ -2,6 +2,11 @@
 name = "nfconnect"
 version = "0.1.0"
 edition = "2021"
+authors = ["Lei Zhang <coolbeevip@gmail.com>"]
+rust-version = "1.76"
+description = "A NetFlow collector written in Rust"
+readme = "README.md"
+license = "Apache-2.0"
 
 [dependencies]
 tokio = { version = "1.34", features = ["full"] }
@@ -16,3 +21,4 @@ chrono = "0.4"
 csv = "1.3"
 derive_builder = "0.12"
 field_types = "1.1"
+structopt = "0.3.26"
