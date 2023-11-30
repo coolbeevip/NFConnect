@@ -1,7 +1,7 @@
 use structopt::StructOpt;
 
 #[derive(StructOpt, Debug)]
-#[structopt(name = "ferrisflow")]
+#[structopt(name = "nfconnect")]
 pub struct Opt {
     #[structopt(short, long, default_value = "2055")]
     pub port: String,
